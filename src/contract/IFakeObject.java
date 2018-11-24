@@ -4,37 +4,35 @@ import domain.*;
 
 public interface IFakeObject {
 
-    public static IAddress createAnAddress(){
+    static IAddress createAnAddress(){
 
-        IAddress address = new Address(
+        return new Address(
+
                 "56565656",
                 "1456",
                 "Rua da Aurora",
                 "Recife",
                 "Pernambuco",
                 "Brasil"
-
         );
+    }
 
-        return address;
-    };
+    static IHouse createAHouse(){
 
-    public static IHouse createAHouse(){
-        IHouse house = new House(
+        return new House(
+
                 createAnAddress(),
                 "Yellow",
                 125.7
         );
+    }
 
-        return house;
-    };
+    static IPerson createAPerson(){
 
-    public static IPerson createAPerson(){
-        IPerson person = new Person(
+        return new Person(
+
                 "Alexandre Tavares",
                 createAHouse()
         );
-
-        return person;
-    };
+    }
 }
