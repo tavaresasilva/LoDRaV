@@ -1,7 +1,5 @@
 # LoDRaV
 
-![Don't talk to starangers](https://i.imgur.com/DHlbnwH.png)
-
 LoDRaV means Law of Demeter: Respect and Violation.
 
 LoDRaV is a simple project divided into two layers: one that stores the interfaces and another that stores the entities.
