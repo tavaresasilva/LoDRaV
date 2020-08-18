@@ -2,7 +2,7 @@
 
 LoDRaV means Law of Demeter: Respect and Violation.
 
-LoDRaV is a simple project divided into two layers: one that stores the interfaces and another that stores the entities.
+LoDRaV is a simple project divided into two folders: one has the entities and another the interfaces and fake data.
 
 The main program contains two examples that demonstrate how to follow or not the The Law of Demeter.
 
